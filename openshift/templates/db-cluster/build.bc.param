@@ -1,0 +1,11 @@
+#=========================================================
+# OpenShift template parameters for:
+# Component: .
+# Template File: ../openshift/templates/db-cluster/build.yaml
+#=========================================================
+NAME=patroni
+SUFFIX=
+VERSION=v10-latest
+GIT_URI=https://github.com/BCDevOps/platform-services.git
+GIT_REF=master
+POSTGRES_VERSION=10
